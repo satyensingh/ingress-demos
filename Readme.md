@@ -22,7 +22,7 @@
 
     ```bash
     $ kubectl apply -f ingress-rules.yaml
-    $ kubectl describe -f ingress-rules.yaml
+    $ kubectl describe ingress webapp-ingress
     #### Expect to get name of nginx-ingress-controller in log output.
     ```
 
